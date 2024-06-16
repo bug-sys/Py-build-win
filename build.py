@@ -68,8 +68,8 @@ def main():
         print("Membuat file eksekusi tunggal menggunakan PyInstaller...")
         result = subprocess.run([
          "pyinstaller",
-         "--add-binary", "stage1.bin:.",
-         "--add-binary", "stage2.bin:.",
+#         "--add-binary", "stage1.bin:.",
+#         "--add-binary", "stage2.bin:.",
          "--onefile",
          "--paths", r"C:\Users\class\OneDrive\Desktop\py\myenv\Lib\site-packages",
          "main.py"])
